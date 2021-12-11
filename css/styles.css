@@ -1,0 +1,65 @@
+
+/* Global styles
+-------------------------- */
+body {
+  color: #343434;
+  margin: 0;
+  padding: 0;
+}
+img {
+  width: 300px;
+}
+a {
+  color: yellow;
+}
+a:hover {
+  text-decoration: None;
+}
+.content-wrap {
+  width: 800px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+h2 {
+  margin: 0;
+}
+/* Profile
+--------------------------- */
+header {
+  background: darkblue;
+  color: cornsilk;
+}
+/* Projects
+--------------------------- */
+.projects {
+  background: lightblue;
+}
+.projects a{
+  color: darkorange;
+}
+.projects .btn {
+  color: palevioletred;
+  background: rgb(255, 239, 213);
+  text-decoration: None;
+  padding: 4px;
+  border-radius: 8px;
+  display: inline-block;
+}
+.projects .btn:hover {
+  background: rgba(255, 239, 213, 80%);
+}
+/* Work experiance
+--------------------------- */
+.work-experience {
+  background: lightgreen;
+}
+/* Education
+--------------------------- */
+.education {
+  background: pink;
+}
+/* Contact
+--------------------------- */
+footer {
+  background: orange;
+}
