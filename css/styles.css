@@ -1,17 +1,18 @@
-
 /* Global styles
 -------------------------- */
 html {
   box-sizing: border-box;
 }
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
-} 
+}
 body {
   color: #343434;
   margin: 0;
   padding: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 15px;
   line-height: 1.5;
 }
@@ -19,7 +20,7 @@ img {
   width: 300px;
 }
 a {
-  color: yellow;
+  color: red;
 }
 a:hover {
   text-decoration: None;
@@ -37,8 +38,9 @@ h1 {
 h2 {
   font-size: 45px;
 }
-h1, h2 {
-  font-family: 'Caveat', cursive;
+h1,
+h2 {
+  font-family: "Caveat", cursive;
   font-weight: 400;
   margin: 0;
 }
@@ -69,7 +71,7 @@ header {
 .projects {
   background: whitesmoke;
 }
-.projects a{
+.projects a {
   color: darkorange;
 }
 .projects .btn {
@@ -120,8 +122,9 @@ footer {
 }
 /* Responsive
 --------------------------- */
-@media screen and (min-width:800px) {
-  header, footer {
+@media screen and (min-width: 800px) {
+  header,
+  footer {
     text-align: center;
   }
   .project-item img {
@@ -139,7 +142,7 @@ footer {
   }
 }
 
-@media screen and (max-width:799px) {
+@media screen and (max-width: 799px) {
   h1 {
     font-size: 75px;
     line-height: 0.9;
